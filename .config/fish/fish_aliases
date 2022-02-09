@@ -1,0 +1,13 @@
+alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+
+alias ls "ls -p -G"
+alias la "ls -A"
+alias ll "ls -l"
+alias lla "ll -A"
+
+alias g git
+
+if type -q exa
+  alias ll "exa -l -g --icons"
+  alias lla "ll -a"
+end
