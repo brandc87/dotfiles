@@ -1,11 +1,11 @@
 # disables "welcome to fish" greeting
 set fish_greeting
 
-set -gx EDITOR nvim
+export TERMINAL="kitty"
+export EDITOR="nvim"
 
 # PATH setup {{{
-  set PATH "/opt/homebrew/bin" $PATH
-  set PATH $HOME/.cargo/env $PATH
+  set PATH /opt/homebrew/bin $PATH
   set PATH $HOME/.cargo/bin $PATH
 # }}}
 
