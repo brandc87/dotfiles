@@ -27,4 +27,4 @@ map("n", "<Leader>g", "<cmd>lua require'telescope.builtin'.live_grep(require('te
 map("n", "<Leader>b", "<cmd>lua require'telescope.builtin'.buffers(require('telescope.themes').get_dropdown({ previewer = false }))<CR>")
 
 -- nvim tree
-map("n", "<Leader>e", ":NvimTreeToggle<CR>", { silent = true })
+-- map("n", "<Leader>e", ":NvimTreeToggle<CR>", { silent = true })

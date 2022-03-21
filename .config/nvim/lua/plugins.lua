@@ -54,7 +54,7 @@ return packer.startup({
     use("nvim-lua/popup.nvim")
 
     -- colorscheme
-    use({ "EdenEast/nightfox.nvim", config = get_setup("nightfox") })
+    use({ "folke/tokyonight.nvim", config = get_setup("tokyonight") })
 
     -- treesitter
     use({
@@ -124,10 +124,6 @@ return packer.startup({
     })
 
     use({
-      "christoomey/vim-tmux-navigator"
-    })
-
-    use({
       "lewis6991/gitsigns.nvim",
       config = get_setup("gitsigns"),
       event = "BufReadPre"
@@ -153,7 +149,22 @@ return packer.startup({
     })
 
     use({
+      "folke/which-key.nvim",
+      config = get_setup("which-key")
+    })
+
+    use({
+      "echasnovski/mini.nvim",
+      branch = "stable",
+      config = get_setup("mini")
+    })
+
+    use({
       "p00f/nvim-ts-rainbow"
+    })
+
+    use({
+      "christoomey/vim-tmux-navigator"
     })
 
     if PACKER_BOOTSTRAP then
