@@ -38,6 +38,7 @@ alias gc='git commit -v'
 alias gcm='git commit -m'
 alias gcmnv='git commit --no-verify -m'
 alias gcanenv='git commit --amend --no-edit --no-verify'
+
 # Function to commit with ticket ID from current branch, with optional push
 quick_commit() {
   local branch_name ticket_id commit_message push_flag
@@ -59,26 +60,12 @@ alias gqc='quick_commit'
 alias gqcp='quick_commit push'
 
 # Neovim
-# If poetry is installed and an environment exists, run "poetry run nvim"
-poetry_run_nvim() {
-  if command -v poetry >/dev/null 2>&1 && [ -f "poetry.lock" ]; then
-    poetry run nvim "$@"
-  else
-    nvim "$@"
-  fi
-}
-alias vi='poetry_run_nvim'
-alias v='poetry_run_nvim'
+alias vi='nvim'
+alias v='nvim'
 
 # Folders
 alias doc="$HOME/Documents"
 alias dow="$HOME/Downloads"
 
-# Ranger
-alias r=". ranger"
-
 # Better ls
 alias ls="eza --all --icons=always"
-
-# Lazygit
-alias lg="lazygit"
