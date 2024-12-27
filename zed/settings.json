@@ -7,8 +7,11 @@
 // custom settings, run `zed: open default settings` from the
 // command palette
 {
-  "ui_font_size": 16,
-  "buffer_font_size": 16,
+  "ui_font_family": "JetBrains Mono",
+  "ui_font_size": 13,
+  "buffer_font_family": "MonoLisa",
+  "buffer_font_size": 14,
+  "vertical_scroll_margin": 5,
   "theme": {
     "mode": "system",
     "light": "One Light",
@@ -76,7 +79,7 @@
         "tailwindcss-language-server",
         "emmet-language-server"
       ],
-      "show_inline_completions": false
+      "show_inline_completions": true
     },
     "HEEX": {
       "format_on_save": {
@@ -113,6 +116,8 @@
     "env": {
       "TERM_PROGRAM": "zed"
     },
+    "font_family": "JetBrains Mono",
+    "font_size": 12,
     "option_as_meta": true,
     "shell": {
       "with_arguments": {
