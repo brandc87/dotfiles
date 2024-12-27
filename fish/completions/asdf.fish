@@ -1,0 +1,1 @@
+/Users/carlbrand/.asdf/completions/asdf.fish

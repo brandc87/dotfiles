@@ -1,0 +1,124 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette
+{
+  "ui_font_size": 16,
+  "buffer_font_size": 16,
+  "theme": {
+    "mode": "system",
+    "light": "One Light",
+    "dark": "One Dark"
+  },
+  "preferred_line_length": 100,
+  "project_panel": {
+    "dock": "left"
+  },
+  "assistant": {
+    "default_model": {
+      "provider": "zed.dev",
+      "model": "claude-3-5-sonnet-latest"
+    },
+    "version": "2",
+    "dock": "right"
+  },
+  "relative_line_numbers": true,
+  "scrollbar": {
+    "show": "never"
+  },
+  "file_icons": true,
+  "show_completions_on_input": true,
+  "show_copilot_suggestions": true,
+  "soft_wrap": "editor_width",
+  "toolbar": {
+    "breadcrumbs": true,
+    "quick_actions": false
+  },
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false
+  },
+  "tab_bar": {
+    "show": true
+  },
+  "use_autoclose": true,
+  "current_line_highlight": "gutter",
+  "cursor_blink": false,
+  "features": {
+    "copilot": true,
+    "inline_completion_provider": "copilot"
+  },
+  "git": {
+    "inline_blame": {
+      "enabled": false
+    }
+  },
+  "languages": {
+    "Elixir": {
+      "format_on_save": {
+        "language_server": {
+          "name": "elixir-ls"
+        }
+      },
+      "formatter": {
+        "language_server": {
+          "name": "elixir-ls"
+        }
+      },
+      "language_servers": [
+        "!lexical",
+        "elixir-ls",
+        "!next-ls",
+        "tailwindcss-language-server",
+        "emmet-language-server"
+      ],
+      "show_inline_completions": false
+    },
+    "HEEX": {
+      "format_on_save": {
+        "language_server": {
+          "name": "elixir-ls"
+        }
+      },
+      "formatter": {
+        "language_server": {
+          "name": "elixir-ls"
+        }
+      },
+      "language_servers": ["!lexical", "elixir-ls", "!next-ls", "tailwindcss-language-server"]
+    },
+    "Astro": {
+      "format_on_save": {
+        "external": {
+          "command": "pnpm",
+          "arguments": ["prettier", "--stdin-filepath", "{buffer_path}"]
+        }
+      }
+    }
+  },
+  "lsp": {
+    "elixir-ls": {
+      "settings": {
+        "dialyzerEnabled": false
+      }
+    }
+  },
+  "terminal": {
+    "blinking": "off",
+    "dock": "bottom",
+    "env": {
+      "TERM_PROGRAM": "zed"
+    },
+    "option_as_meta": true,
+    "shell": {
+      "with_arguments": {
+        "args": ["-l", "-i"],
+        "program": "/opt/homebrew/bin/fish"
+      }
+    }
+  }
+}
