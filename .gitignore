@@ -1,3 +1,4 @@
+.DS_Store
 /fish/functions
 /fish/fish_read_history
 /fish/secret_env.fish
