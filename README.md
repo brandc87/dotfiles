@@ -7,7 +7,7 @@ Adapted from [Petar Radošević](https://github.com/wunki/dotfiles)
 
 | Name        | Description                                                                           |
 |-------------|---------------------------------------------------------------------------------------|
-| [Ghostty]   | Alacritty is a fast terminal.                                                         |
+| [Ghostty]   | Ghostty is a fast, feature-rich, and cross-platform terminal emulator.                |
 | [Fish]      | Shell with good defaults and easy to configure                                        |
 | [Zed]       | Fast GUI editor |
 
