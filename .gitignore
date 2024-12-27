@@ -10,3 +10,4 @@
 /zed/.tmp*
 /zed/conversations
 /zed/prompts
+/zed/.DS_Store
