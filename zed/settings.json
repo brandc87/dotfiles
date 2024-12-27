@@ -14,8 +14,8 @@
   "vertical_scroll_margin": 5,
   "theme": {
     "mode": "system",
-    "light": "One Light",
-    "dark": "One Dark"
+    "light": "Catppuccin Latte",
+    "dark": "Catppuccin Mocha"
   },
   "preferred_line_length": 100,
   "project_panel": {
