@@ -15,6 +15,7 @@ SETUVAR _fisher_plugins:jorgebucaran/fisher\x1ejethrokuan/z\x1ejorgebucaran/hydr
 SETUVAR _fisher_upgraded_to_4_4:\x1d
 SETUVAR _hydro_git_44564:main\u2022\x20
 SETUVAR _hydro_git_45307:main\u2022\x20
+SETUVAR _hydro_git_45654:main\u2022\x20
 SETUVAR brew_prefix:/opt/homebrew
 SETUVAR fish_color_autosuggestion:brblack
 SETUVAR fish_color_cancel:\x2dr

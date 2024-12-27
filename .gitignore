@@ -1,0 +1,11 @@
+/fish/functions
+/fish/fish_read_history
+/fish/secret_env.fish
+/fish/conf.d
+/fish/fish_variables
+/fish/completions/fzf_configure_bindings.fish
+/fish/completions/fisher.fish
+/fish/secrets.fish
+/zed/.tmp*
+/zed/conversations
+/zed/prompts
