@@ -30,6 +30,7 @@ abbr t2 'tree --dirsfirst -ChFL 2'
 abbr t3 'tree --dirsfirst -ChFL 3'
 
 # Git shortcuts
+abbr ga 'git add'
 abbr gc 'git commit'
 abbr gs 'git status --ignore-submodules=dirty'
 abbr gp 'git push origin HEAD'
